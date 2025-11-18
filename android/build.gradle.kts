@@ -2,6 +2,13 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://nexus.zolak.tech/repository/maven-releases/")
+            credentials {
+                username = "maven-reader"
+                password = providers.gradleProperty("zolakNexusPassword").get()
+            }
+        }
     }
 }
 

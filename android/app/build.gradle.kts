@@ -24,7 +24,7 @@ android {
         applicationId = "com.example.flutter_zolak_minimal_reproducible_example_16"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
+        minSdk = 26
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -41,4 +41,10 @@ android {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    implementation("com.jaydevs.zolak:sdk:0.1.15") {
+        exclude(group = "com.android.support")
+    }
 }

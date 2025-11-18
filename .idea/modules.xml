@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/flutter_zolak_minimal_reproducible_example_16.iml" filepath="$PROJECT_DIR$/.idea/flutter_zolak_minimal_reproducible_example_16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/flutter_zolak_minimal_reproducible_example_16_android.iml" filepath="$PROJECT_DIR$/android/flutter_zolak_minimal_reproducible_example_16_android.iml" />
     </modules>
   </component>
 </project>

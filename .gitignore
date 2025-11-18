@@ -50,6 +50,7 @@ unlinked_spec.ds
 **/android/**/gradle-wrapper.jar
 .gradle/
 **/android/captures/
+**/android/.kotlin/*
 **/android/gradlew
 **/android/gradlew.bat
 **/android/local.properties
